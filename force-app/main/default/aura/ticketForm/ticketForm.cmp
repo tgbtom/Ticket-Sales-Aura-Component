@@ -1,0 +1,8 @@
+<aura:component>
+    <aura:attribute name="newTicket" type="Ticket__c" default="{ 'sobjectType' : 'Ticket__c' }"/>
+
+    <form>
+        <force:inputField value="{!v.newTicket.Showing__c}" />
+        <force:inputField value="{!v.newTicket.Customer__c}" />
+    </form>
+</aura:component>	
